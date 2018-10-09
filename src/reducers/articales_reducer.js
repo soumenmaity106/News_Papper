@@ -10,7 +10,16 @@ export default function(state = {},action){
             ...state,
             other:action.payload
         }
-     
+        case'GET_SELETED_NEWS':
+        return{
+            ...state,
+            selected:action.payload
+        }
+        case'CLEAR_SELETED_NEWS':
+        return{
+            ...state,
+            selected:action.payload
+        }      
         default:
             return state
     }

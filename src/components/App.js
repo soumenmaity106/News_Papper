@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import { BrowserRouter, Route, Switch  } from 'react-router-dom'
 
+import '../App.css'
 //Components
 import Header from './Header'
 import Footer from './Footer'
