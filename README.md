@@ -5,13 +5,10 @@ This simple Web application prototype shows how React Redux components  can be u
 ## Features
 - Mobile Web Version 
 - Single page application
-- Galley
-- like
-- Gallery -Slider
-- Single Gallery
 - Single News
-- Dislike
-- Team Details
+- Single News  Like Dislike
+- Gallery -Slider
+- Single Gallery Like Dislike
 ## Technology
 - Node
 - React
