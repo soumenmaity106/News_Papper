@@ -1,14 +1,15 @@
-##  News Portal built with React Redux Json Server
+##  News Portal built with React Redux Json Server 
 
 This simple Web application prototype shows how React Redux components  can be used to build a friendly user experience with instant visual updates and scaleable code in Web application
 
 ## Features
-- Responsive
-- Singel page application
+- Mobile Web Version 
+- Single page application
 - Galley
-- lick
+- like
 - Gallery -Slider
-- Singel News
+- Single Gallery
+- Single News
 - Dislike
 - Team Details
 ## Technology
