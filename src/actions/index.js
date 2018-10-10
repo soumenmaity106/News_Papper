@@ -46,3 +46,20 @@ export function cleareSeletedNews(){
     }
 
 }
+//////////////////////////
+
+export function selectedGallery(id){
+    const request = fetch(`${URL}/galleries?id=${id}`,{method:'GET'})
+    .then(response=> response.json())
+    return{
+        type:'GET_SELETED_GALLERY',
+        payload:request
+    }
+}
+
+export function clearSelelectedGallery(){
+    return {
+        type:'CLEAR_SELETED_GALLERY',
+        payload:[]
+    }
+}

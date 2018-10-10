@@ -5,6 +5,16 @@ export default function(state = {},action){
             ...state,
             latestgallery:action.payload
         }
+        case 'GET_SELETED_GALLERY':
+        return{
+            ...state,
+            selected:action.payload
+        }
+        case 'CLEAR_SELETED_GALLERY':
+        return{
+            ...state,
+            selected:action.payload
+        }
         default:
             return state
     }

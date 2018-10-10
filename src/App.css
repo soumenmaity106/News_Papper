@@ -181,5 +181,27 @@ line-height: 32px;
 }
 .news_container .body_news{
   padding:20px;
+  font-weight: 300;
+  font-size: 17px;
+}
+/*
+==========================================
+          Gallery
+==========================================
+*/
+.slide-item-wrap h3{
+  font-weight: 300;
+  text-align: center;
   
+}
+.slide-item-wrap .slide-item .image{
+  width: 100%;
+  background-position: center center !important;
+  background-size: cover !important;
+  height: 500px;
+}
+.slide-item-wrap .slide-item .gallery-description{
+    box-sizing: border-box;
+    padding: 20px;
+    background: #e0e0e0
 }
